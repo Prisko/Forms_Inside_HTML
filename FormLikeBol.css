@@ -1,0 +1,68 @@
+form {
+    width: 50%;
+}
+fieldset {
+    border: 2px solid #2a702a;
+    border-radius: 10px;
+
+}
+legend {
+    color: #65b465;
+    font-size: 1.5em;
+
+}
+label{
+    color: rgb(67, 128, 67);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+
+}
+input[type=text],input[type=email],input[type=number],input[type=date],input[type=password],textarea{
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 50%;
+    max-height: 50%;
+}
+*{
+    box-sizing: border-box;
+}
+input[type="radio"]+label,input[type="checkbox"]+label{
+    font-weight: normal;
+    display: inline-block;
+    width: 100%;
+}
+.knop input[type="submit"] {
+    background: linear-gradient(#498f4f, #295032);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+}
+.knop input:hover[type="submit"] {
+    background: linear-gradient(#295032, #498f4f);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+}
